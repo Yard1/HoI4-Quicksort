@@ -151,6 +151,7 @@ naive_sorting_test = {
 }
 
 # Essentially a selection sort using find_lowest_in_array
+# Implemented by Strategy Gamer
 naive_sorting = {
 	set_temp_variable = { length_temp = arr^num }
 	for_loop_effect = {
