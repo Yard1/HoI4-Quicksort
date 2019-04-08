@@ -19,15 +19,7 @@ Example:
 
     # Arguments: arr, high, low
     quicksort = yes    # arr set up beforehand
-    # Set arguments
-    set_variable = { high = arr^num }
-    subtract_from_variable = { high = 1 }
-
-    set_variable = { low = 0 }
-
-    # Arguments: arr, high, low
-    quicksort = yes
-````
+```
 
 Included in the file are: the quicksort scripted effects (`quicksort` and `quicksort_partition`), selection sort (`naive_sorting`), insertion sort (`insertion_sort`), scripted effect to measure performance (`sorting_test` - call it with an event while running the profiler), scripted effects to test the sorting effects and an effect to create the test array (
 `set_up_array`).
