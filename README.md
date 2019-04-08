@@ -2,7 +2,7 @@
 
 This is an implementation of an iterative randomized [quicksort](https://en.wikipedia.org/wiki/Quicksort) algorithm for HoI 4 script arrays. The algorithm allows for very fast sorting of large arrays, compared to naive algorithms such as selection or insertion sort.
 
-Measured on my machine with Script Profiler, sorting a random 1000-element array takes 113 ms. Worst case (sorted array) requires about 300 ms (since the pivot is random, both times may fluctuate slightly). That's about 19.6 times better performance than selection sort, and 22 times better performance than insertion sort.
+Measured on my machine with Script Profiler, sorting a random 1000-element array takes 87 ms. Worst case (sorted array) requires about 270 ms (since the pivot is random, both times may fluctuate slightly). That's about 19.6 times better performance than selection sort, and 22 times better performance than insertion sort.
 
 In order to use the quicksort scripted effect, arguments first need to be set up beforehand (saved as non-temporary variables). They are:
 arr = array to sort
